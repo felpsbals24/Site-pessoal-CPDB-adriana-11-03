@@ -1,27 +1,39 @@
 body 
 {
-    
+    background: linear-gradient(to right, rgb(19, 160, 236), rgb(84, 82, 82));
     margin: 0;
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
    
     .profile {
-        border-radius: 70%;
+        border-radius: 50%;
+        width: 320px;
+        margin:-55px;
+      
     }
    
 #name {
     font-size: 50px;
+    color: rgb(255, 123, 0);
     
+   
 }
 
 #sobretexto {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: blue;
+  margin: -45px;
   
       
     }
-  
-          
-}
-        
+  #texto {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    display:flex;
+  }
+
+
+    
+   }
